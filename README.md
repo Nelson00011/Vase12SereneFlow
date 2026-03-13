@@ -1,14 +1,14 @@
-<h1 align="center">projectsFULLSTACK</h1>
+<h1 align="center">SereneFlow</h1>
 
 `main image`
 
 ## Description:
-Outline for general FULLSTACK DEVELOPMENT PROJECTs
+medication application that tracks positive quotes, daily meditation and period flow for a better balanced life. Take the pauses to calm, relax and center. 
 
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
 - **API:** Api calls or external sources used
-- **Backend/Server:** node.js/express or python alternatives, include databases
+- **Backend/Server:** node.js/express or python alternatives, SQL
 
 <h2 align="center">Video:</h2>
 
@@ -23,67 +23,45 @@ Outline for general FULLSTACK DEVELOPMENT PROJECTs
 
 ## Run Code (Environment)
 
-### Front-End Instructions `<examples below>`
-- confirm that config is appropriate:
+**Welcome to your Base44 project** 
+
+**About**
+
+View and Edit  your app on [Base44.com](http://Base44.com) 
+
+This project contains everything you need to run your app locally.
+
+**Edit the code in your local development environment**
+
+Any change pushed to the repo will also be reflected in the Base44 Builder.
+
+**Prerequisites:** 
+
+1. Clone the repository using the project's Git URL 
+2. Navigate to the project directory
+3. Install dependencies: `npm install`
+4. Create an `.env.local` file and set the right environment variables
+
 ```
-> node -v
-> npm -v
-> git --version
+VITE_BASE44_APP_ID=your_app_id
+VITE_BASE44_APP_BASE_URL=your_backend_url
+
+e.g.
+VITE_BASE44_APP_ID=cbef744a8545c389ef439ea6
+VITE_BASE44_APP_BASE_URL=https://my-to-do-list-81bfaad7.base44.app
 ```
 
-- Initial package.json & install dependenies(localhost:3000):
-    - Must be `cd`'d into frontend/client for install
-    - MUI, `react-router-dom`, redux, formik, etc... (see resources)
-```
-> npx create-react-app <project name>
-> cd <project name>
-> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-> npm install --save react-router-dom
-> npm install react-redux @reduxjs/toolkit
-> npm install formik yup dotenv react-responsive-carousel
-> npm install --save @stripe/react-stripe-js @stripe/stripe-js
-```
-- Test front-end once pages are generated (ctrl-c to exit):
-```
-> npm run start
-```
+Run the app: `npm run dev`
 
-### Back-End Helpful Instructions `<examples below>`
-- Initial package.json & install dependencies:
-    - Must be `cd`'d into backend/server for install
-```
-> npx create-strapi-app@latest <project name>
-> cd <project name>
-> npm install --save stripe
-```
-- Strapi Database generated (ctrl-c to exit):
-```
-> npm run develop
-```
-- **Avoid** *npm run start* and use the `npm run develop`. 
-- Allow server to restart with each edit (see resources): 
-    - **Content-Type Builder**: Item entry
-    - **Media Library**: upload photos
-    - **Permissions**: Settings > Roles > Public
-- When using .env variables remember to [install prior](https://www.npmjs.com/package/dotenv/v/14.0.0)
-```
-npm install dotenv --save
-```
--
-    - Create a .env file in the root directory of your project.
-    - Import and configure dotenv.
-    - Establish a .gitignore [here](https://git-scm.com/docs/gitignore)
+**Publish your changes**
 
-- In frontend fetch `item` from backend (*localhost:1337*):
-```
-const grouping = "items"
-const items = await fetch(
-`http://localhost:1337/api/${grouping}`
-)
-```
---------------------------
-### Deployment
+Open [Base44.com](http://Base44.com) and click on Publish.
 
+**Docs & Support**
+
+Documentation: [https://docs.base44.com/Integrations/Using-GitHub](https://docs.base44.com/Integrations/Using-GitHub)
+
+Support: [https://app.base44.com/support](https://app.base44.com/support)
 
 
 ## Contact:
@@ -95,17 +73,7 @@ Connect with me on <a href="https://www.linkedin.com/in/ayla-nelson/">LinkedIn</
 Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 
 ## Resources:
-
-- `Tech used and links associated`
-- `Tech used and links associated`
-
-`<examples below>`
-- **PostMan** for API Tests [here](https://www.postman.com/)
-    - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
-    - jwt Debugger [here](https://jwt.io/#debugger-io)
-- **React.New** allows for testing new React projects [here](react.new)
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
-
+- **Base 44** [free](https://app.base44.com/) tier for AI-powered no-code app development, providing 25 monthly message credits (max 5 per day) and 100 monthly integration credits for LLM/database actions. Users can build, host, and deploy functional applications, including data storage and authentication, without initial costs.
 
 #### **style:** 
 - `frameworks and links associated`

@@ -1,6 +1,6 @@
 <h1 align="center">SereneFlow</h1>
 
-`main image`
+<a align="center" href="https://app.base44.com/" ><img src="./screenShots/appPreview.jpg"></img></a>
 
 ## Description:
 medication application that tracks positive quotes, daily meditation and period flow for a better balanced life. Take the pauses to calm, relax and center. 
@@ -10,16 +10,8 @@ medication application that tracks positive quotes, daily meditation and period 
 - **API:** Api calls or external sources used
 - **Backend/Server:** node.js/express or python alternatives, SQL
 
-<h2 align="center">Video:</h2>
-
 ## Screen Shots:
 <p align="center">Please reference the screenshot folder for more available images</p>
-
-`selected image 1`
-
-`selected image 2`
-
-`selected image 3`
 
 ## Run Code (Environment)
 

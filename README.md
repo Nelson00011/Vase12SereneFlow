@@ -3,7 +3,7 @@
 <a align="center" href="https://app.base44.com/" ><img src="./screenShots/appPreview.jpg"></img></a>
 
 ## Description:
-medication application that tracks positive quotes, daily meditation and period flow for a better balanced life. Take the pauses to calm, relax and center. 
+Meditation application that tracks positive quotes, daily meditation and period flow for a better balanced life. Take the pauses to calm, relax and center. Testing Base44 compared to other website and application ai generation websites for baseline code generation, this will eventually need to be overriden by tailor the components, design and general structure. 
 
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
